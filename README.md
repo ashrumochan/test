@@ -1,1 +1,12 @@
-# test
+# Docker Code
+
+
+docker build -t testdocker .
+
+docker run -p 4000:8080 testdocker
+
+From tomcat:8-jre8
+MAINTAINER "erashru@gmail.com"
+RUN rm -rf /usr/local/tomcat/webapps/ROOT
+ADD ROOT.war /usr/local/tomcat/webapps/
+EXPOSE 8080 80 8888
