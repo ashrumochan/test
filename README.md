@@ -17,10 +17,11 @@ EXPOSE 8080 80 8888
 
 
 <br>
-** Get Shell of Container **
+## Get Shell of Container
 <br>
 docker exec -it a3084e215ce2 /bin/bash
 
 <br>
-** Removing Dangling Images -- with <none> **
-  sudo docker image rm $(sudo docker images -f "dangling=true" -q)
+# Removing Dangling Images -- with <none>
+<br>
+sudo docker image rm $(sudo docker images -f "dangling=true" -q)
