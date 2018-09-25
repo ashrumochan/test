@@ -10,3 +10,6 @@ MAINTAINER "erashru@gmail.com"
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 ADD ROOT.war /usr/local/tomcat/webapps/
 EXPOSE 8080 80 8888
+
+Get Shell of Container
+docker exec -it a3084e215ce2 /bin/bash
