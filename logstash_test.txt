@@ -1,0 +1,53 @@
+input
+{
+  beats
+  {
+    port => 5555
+  }
+}
+filter
+{
+ grok
+  {
+    match => [ "message", "%{TIMESTAMP_ISO8601:timestamp_string} %{LOGLEVEL:log-level} %{JAVAFILE:file}:%{NUMBER:lineNumber:int} \- USERID %{DATA:dash} %{WORD:function} %{WORD:time} %{NUMBER:responseTime:int}"]
+
+    remove_field => ["@timestamp","@version","beat","prospector","source","offset","tags"]
+  }
+
+  date
+  {
+    locale => "en"
+    match => ["timestamp_string", "YYYY-MM-dd HH:mm:ss:SSS"]
+    target => logTImeStamp
+  }
+
+  date
+  {
+    locale => "en"
+    match => ["timestamp_string", "YYYY-MM-dd HH:mm:ss:SSS"]
+    target => Hour
+  }
+  mutate
+  {
+    remove_field => [ message, timestamp_string]
+  }
+
+}
+output
+{
+  if "_grokparsefailure" not in [tags]
+  {
+    elasticsearch
+    {
+      hosts => "localhost:9200"
+      index => "kachda"
+    }
+  }
+  else
+  {
+    stdout
+    {
+      codec => rubydebug
+    }
+  }
+}
