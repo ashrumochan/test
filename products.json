@@ -1,0 +1,278 @@
+{
+  "timestamp": "",
+  "products": [
+    {
+      "sku": "1378001",
+      "type": "Item",
+      "name": "SIGNATURE.FOUNDATIONS.ELEMENTARY.8 1/2X11..ENGLISH.LF-129.8 PG.11/12..US/CA",
+      "categories": [
+        {
+          "type": "ItemMaster",
+          "name": "SIGNATURE",
+          "id": "1536326",
+          "assignmentId": "754684",
+          "longName": "SIGNATURE",
+          "path": "AGENDAS » AGENDAS » PREMIER » SIGNATURE"
+        }
+      ],
+      "mediaAssets": null,
+      "attributes": [
+        {
+          "harm_code": [
+            "4901.10.0040"
+          ]
+        },
+        {
+          "change_control": [
+            "PREMIER AGENDA"
+          ]
+        },
+        {
+          "primary_unit_of_measure_code": [
+            "EA"
+          ]
+        },
+        {
+          "unit_height": [
+            "0.015"
+          ]
+        },
+        {
+          "unit_length": [
+            "11.000"
+          ]
+        },
+        {
+          "unit_volume": [
+            "1.436"
+          ]
+        },
+        {
+          "unit_weight": [
+            "0.044"
+          ]
+        },
+        {
+          "unit_width": [
+            "8.500"
+          ]
+        },
+        {
+          "ia_code": [
+            "PA"
+          ]
+        },
+        {
+          "imported": [
+            "NO-NOFRT"
+          ]
+        },
+        {
+          "vertex_tax_code": [
+            "AGENDA"
+          ]
+        },
+        {
+          "corporate_marketing": [
+            "AGENDAS.AGENDAS.DEFAULT.DEFAULT"
+          ]
+        },
+        {
+          "brand_name": [
+            "CHEM"
+          ]
+        },
+        {
+          "external_id": [
+            "1378001"
+          ]
+        },
+        {
+          "inventory_item_id": [
+            "2426866"
+          ]
+        },
+        {
+          "item_description": [
+            "SIGNATURE.FOUNDATIONS.ELEMENTARY.8 1/2X11..ENGLISH.LF-129.8 PG.11/12..US/CA"
+          ]
+        },
+        {
+          "proprietary": [
+            "PROPRIETARY"
+          ]
+        },
+        {
+          "user_item_type": [
+            "RAW ITEM"
+          ]
+        },
+        {
+          "ebs_master_status": [
+            "NONWORKING"
+          ]
+        },
+        {
+          "web_status": [
+            "DISABLED"
+          ]
+        },
+        {
+          "created_by": [
+            "CHRISTIANA, ROBERT"
+          ]
+        },
+        {
+          "creation_date": [
+            "9/22/2010 12:00:00 AM"
+          ]
+        },
+        {
+          "engineering": [
+            "YES"
+          ]
+        },
+        {
+          "PreviousCategoryPath": [
+            "DEFAULT-694086"
+          ]
+        },
+        {
+          "ReclassificationTime": [
+            "1/18/2018 4:22:05 PM"
+          ]
+        },
+        {
+          "back_orderable": [
+            "N"
+          ]
+        },
+        {
+          "orderable_on_web": [
+            "N"
+          ]
+        },
+        {
+          "nigp_code": [
+            "78500000"
+          ]
+        },
+        {
+          "nondiscountable": [
+            "N"
+          ]
+        },
+        {
+          "premier_frr_min": [
+            "24000"
+          ]
+        },
+        {
+          "premier_frr_uom": [
+            "PALLET"
+          ]
+        },
+        {
+          "premier_frr_multiplier": [
+            "12000"
+          ]
+        },
+        {
+          "premier_number_of_pages": [
+            "8 PG"
+          ]
+        },
+        {
+          "premier_start_page": [
+            "LF-129"
+          ]
+        },
+        {
+          "premier_size": [
+            "8 1/2X11"
+          ]
+        },
+        {
+          "premier_brand_name": [
+            "FOUNDATIONS"
+          ]
+        },
+        {
+          "premier_level": [
+            "ELEMENTARY"
+          ]
+        },
+        {
+          "premier_language": [
+            "ENGLISH"
+          ]
+        },
+        {
+          "premier_product_year": [
+            "11/12"
+          ]
+        },
+        {
+          "premier_country": [
+            "US/CA"
+          ]
+        },
+        {
+          "discountable": [
+            "Y"
+          ]
+        },
+        {
+          "item_template": [
+            "PHASE1"
+          ]
+        },
+        {
+          "purchasing_category": [
+            "DEFAULT"
+          ]
+        },
+        {
+          "launch_date": [
+            "PRE2018"
+          ]
+        },
+        {
+          "default_so_source_type": [
+            "INTERNAL"
+          ]
+        },
+        {
+          "strategiccategory": [
+            "PHYSICAL EDUCATION"
+          ]
+        },
+		{
+          "ezqprodtype": [
+            "LETSCIFWECANBREAK"
+          ]
+        },
+        {
+          "SO_SOURCE_TYPE": [
+            "INTERNAL"
+          ]
+        },
+        {
+          "PRODUCTTYPE": [
+            "PRODUCT"
+          ]
+        },
+        {
+          "SHIPPINGTYPE": [
+            ""
+          ]
+        },
+        {
+          "FREESHIPPING": [
+            ""
+          ]
+        }
+      ],
+      "merchAssociations": null,
+      "externalSalesChannels": []
+    }]}
