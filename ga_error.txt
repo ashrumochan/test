@@ -1,0 +1,321 @@
+2018-12-19 09:55:05 WARN  analytics:62 - No property files are specified
+2018-10-20 2018-10-21 dataMart1_NLI
+2018-12-19 09:55:05 ERROR analytics:147 - Received Dates, Start Date:- 2018-10-20 End Date:- 2018-10-21
+2018-12-19 09:55:05 DEBUG analytics:68 - compareDates return:1
+2018-12-19 09:55:05 DEBUG analytics:68 - compareDates return:1
+2018-12-19 09:55:05 DEBUG analytics:68 - compareDates return:1
+2018-12-19 09:55:05 DEBUG analytics:68 - compareDates return:1
+====Executing for=====2018-10-20
+2018-12-19 09:55:05 INFO  analytics:176 - ====Executing for===Date:==2018-10-20  Report ID:D:/data_GD/drive-java-quickstart/GA_2018-08-01.csv
+2018-12-19 09:55:05 INFO  analytics:176 - ====Executing for===Date:==2018-10-20  Report ID:D:/data_GD/drive-java-quickstart/GA_2018-08-01.csv
+2018-12-19 09:55:05 INFO  analytics:176 - ====Executing for===Date:==2018-10-20  Report ID:D:/data_GD/drive-java-quickstart/GA_2018-08-01.csv
+2018-12-19 09:55:05 INFO  analytics:176 - ====Executing for===Date:==2018-10-20  Report ID:D:/data_GD/drive-java-quickstart/GA_2018-08-01.csv
+2018-12-19 09:55:05 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:05 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:05 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:05 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:05 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:05 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:05 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:05 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:05 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:05 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:05 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:05 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:06 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:06 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:06 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:06 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:06 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:06 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:06 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:06 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:06 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:06 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:06 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:06 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:07 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 1/3 (Maximum Attempts)
+2018-12-19 09:55:07 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 1/3 (Maximum Attempts)
+2018-12-19 09:55:07 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 1/3 (Maximum Attempts)
+2018-12-19 09:55:07 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 1/3 (Maximum Attempts)
+com.google.api.client.auth.oauth2.TokenResponseException: 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:07 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:07 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+	at com.google.api.client.auth.oauth2.TokenResponseException.from(TokenResponseException.java:105)
+	at com.google.api.client.auth.oauth2.TokenRequest.executeUnparsed(TokenRequest.java:287)
+	at com.google.api.client.auth.oauth2.TokenRequest.execute(TokenRequest.java:307)
+	at com.google.api.client.googleapis.auth.oauth2.GoogleCredential.executeRefreshToken(GoogleCredential.java:394)
+	at com.google.api.client.auth.oauth2.Credential.refreshToken(Credential.java:493)
+	at com.google.api.client.auth.oauth2.Credential.intercept(Credential.java:217)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at org.icicibank.google.analytics.GADataPorter.getFirstProfileId(GADataPorter.java:312)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:228)
+	at org.icicibank.google.analytics.GAInitializer.executeGa(GAInitializer.java:179)
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:242)
+2018-12-19 09:55:07 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:07 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:07 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:08 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 2/3 (Maximum Attempts)
+2018-12-19 09:55:08 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 2/3 (Maximum Attempts)
+2018-12-19 09:55:08 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 2/3 (Maximum Attempts)
+2018-12-19 09:55:08 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 2/3 (Maximum Attempts)
+com.google.api.client.auth.oauth2.TokenResponseException: 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+	at com.google.api.client.auth.oauth2.TokenResponseException.from(TokenResponseException.java:105)
+	at com.google.api.client.auth.oauth2.TokenRequest.executeUnparsed(TokenRequest.java:287)
+	at com.google.api.client.auth.oauth2.TokenRequest.execute(TokenRequest.java:307)
+	at com.google.api.client.googleapis.auth.oauth2.GoogleCredential.executeRefreshToken(GoogleCredential.java:394)
+	at com.google.api.client.auth.oauth2.Credential.refreshToken(Credential.java:493)
+	at com.google.api.client.auth.oauth2.Credential.intercept(Credential.java:217)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at org.icicibank.google.analytics.GADataPorter.getFirstProfileId(GADataPorter.java:312)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:228)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GAInitializer.executeGa(GAInitializer.java:179)
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:242)
+2018-12-19 09:55:08 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:08 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:08 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:08 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:10 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 3/3 (Maximum Attempts)
+2018-12-19 09:55:10 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 3/3 (Maximum Attempts)
+2018-12-19 09:55:10 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 3/3 (Maximum Attempts)
+com.google.api.client.auth.oauth2.TokenResponseException: 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+	at com.google.api.client.auth.oauth2.TokenResponseException.from(TokenResponseException.java:105)
+	at com.google.api.client.auth.oauth2.TokenRequest.executeUnparsed(TokenRequest.java:287)
+	at com.google.api.client.auth.oauth2.TokenRequest.execute(TokenRequest.java:307)
+	at com.google.api.client.googleapis.auth.oauth2.GoogleCredential.executeRefreshToken(GoogleCredential.java:394)
+	at com.google.api.client.auth.oauth2.Credential.refreshToken(Credential.java:493)
+	at com.google.api.client.auth.oauth2.Credential.intercept(Credential.java:217)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at org.icicibank.google.analytics.GADataPorter.getFirstProfileId(GADataPorter.java:312)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:228)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GAInitializer.executeGa(GAInitializer.java:179)
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:242)
+2018-12-19 09:55:10 ERROR analytics:265 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} but trying again 3/3 (Maximum Attempts)
+2018-12-19 09:55:10 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:196 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:198 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:199 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:288 - serviceAccountEmail496243602934-compute@developer.gserviceaccount.com
+2018-12-19 09:55:10 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:289 - keyFileLocationresources/client_secrets_2.p12
+2018-12-19 09:55:10 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:290 - applicationNameHello Analytics
+2018-12-19 09:55:10 DEBUG analytics:290 - applicationNameHello Analytics
+com.google.api.client.auth.oauth2.TokenResponseException: 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+	at com.google.api.client.auth.oauth2.TokenResponseException.from(TokenResponseException.java:105)
+	at com.google.api.client.auth.oauth2.TokenRequest.executeUnparsed(TokenRequest.java:287)
+	at com.google.api.client.auth.oauth2.TokenRequest.execute(TokenRequest.java:307)
+	at com.google.api.client.googleapis.auth.oauth2.GoogleCredential.executeRefreshToken(GoogleCredential.java:394)
+	at com.google.api.client.auth.oauth2.Credential.refreshToken(Credential.java:493)
+	at com.google.api.client.auth.oauth2.Credential.intercept(Credential.java:217)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at org.icicibank.google.analytics.GADataPorter.getFirstProfileId(GADataPorter.java:312)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:228)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GAInitializer.executeGa(GAInitializer.java:179)
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:242)
+2018-12-19 09:55:10 ERROR analytics:274 - Received Exception While Writing data to file:400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:10 ERROR analytics:274 - Received Exception While Writing data to file:400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:10 ERROR analytics:274 - Received Exception While Writing data to file:400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:10 ERROR analytics:274 - Received Exception While Writing data to file:400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+com.google.api.client.auth.oauth2.TokenResponseException: 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+	at com.google.api.client.auth.oauth2.TokenResponseException.from(TokenResponseException.java:105)
+	at com.google.api.client.auth.oauth2.TokenRequest.executeUnparsed(TokenRequest.java:287)
+	at com.google.api.client.auth.oauth2.TokenRequest.execute(TokenRequest.java:307)
+	at com.google.api.client.googleapis.auth.oauth2.GoogleCredential.executeRefreshToken(GoogleCredential.java:394)
+	at com.google.api.client.auth.oauth2.Credential.refreshToken(Credential.java:493)
+	at com.google.api.client.auth.oauth2.Credential.intercept(Credential.java:217)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at org.icicibank.google.analytics.GADataPorter.getFirstProfileId(GADataPorter.java:312)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:228)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GADataPorter.init(GADataPorter.java:269)
+	at org.icicibank.google.analytics.GAInitializer.executeGa(GAInitializer.java:179)
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:242)
+2018-12-19 09:55:10 ERROR analytics:205 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:10 ERROR analytics:205 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:10 ERROR analytics:205 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+2018-12-19 09:55:10 ERROR analytics:205 - 400 Bad Request
+{
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+}
+org.apache.commons.configuration.ConfigurationException: No file name has been set!
+	at org.apache.commons.configuration.AbstractFileConfiguration.save(AbstractFileConfiguration.java:372)
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:243)
+2018-12-19 09:55:11 ERROR analytics:248 - No file name has been set!
+2018-12-19 09:55:11 ERROR analytics:248 - No file name has been set!
+2018-12-19 09:55:11 ERROR analytics:248 - No file name has been set!
+2018-12-19 09:55:11 ERROR analytics:248 - No file name has been set!
+Exception in thread "main" java.lang.Exception: No file name has been set!
+	at org.icicibank.google.analytics.GAInitializer.main(GAInitializer.java:249)
