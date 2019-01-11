@@ -25,3 +25,12 @@ docker exec -it a3084e215ce2 /bin/bash
 # Removing Dangling Images -- with <none>
 <br>
 sudo docker image rm $(sudo docker images -f "dangling=true" -q)
+
+<br>
+Webinar #1: Introduction to the Elastic Stack, Using the Elastic Stack for Logs and Metrics (9th Jan)
+<br>
+https://zoom.us/recording/share/Qp9rF60BTfyL_mi78mN8IlTXr6zMuNcPG_Xn4Zr2HNSwIumekTziMw 
+
+Webinar #2: Deep Dive into Elastic Premium Features and Elastic Cloud Offerings (10th Jan)
+<br>
+https://zoom.us/recording/share/PnBaHJlO6ebEyJ2aztsTXfm9MTg2FF1BWXpJo-4i2LSwIumekTziMw 
