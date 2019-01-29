@@ -1,0 +1,213 @@
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+
+PUT /vehicles/car/123
+{
+  "make":"honda",
+  "color":"Black",
+  "HP":250,
+  "milage":24000,
+  "price":18300.97
+}
+
+GET /vehicles/car/_search
+{
+  "query":{
+    "match_all": {}
+  }
+}
+
+GET /vehicles/car/123
+
+GET /vehicles/car/123/_source
+
+HEAD /vehicles/car/124
+
+#Updating the document
+PUT /vehicles/car/123
+{
+  "make":"honda",
+  "color":"Black",
+  "HP":350,
+  "milage":24000,
+  "price":18300.97
+}
+
+POST /vehicles/car/123/_update
+{
+  "doc": {
+    "price":1000.20
+  }
+}
+
+GET /vehicles
+
+#Business Data
+PUT /business/building/110
+{
+  "address":"57 New Dover Ln",
+  "floors":10,
+  "offices":21,
+  "loc":{
+    "lat": 40.707519,
+    "lon": -74.008560
+  }
+}
+
+PUT /business/building/217
+{
+  "address":"11 Pen Ave",
+  "floors":5,
+  "offices":7,
+  "loc":{
+    "lat": 40.693479,
+    "lon": -73.983854
+  }
+}
+
+GET /business
+
+PUT /business1/employee/331
+{
+  "name":"Steve Honor",
+  "title":"Attorney",
+  "salar_usd":140000.00,
+  "hiredate": "Oct 10, 2010"
+}
+
+PUT /business2/contract/9987
+{
+  "name":"property renovation",
+  "date_signed":"July 26 2010",
+  "employees_involved":[331,330,398]
+}
+
+GET /business1/employee/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+
+GET /business1/employee/_search
+{
+  "query": {
+    "term": {
+      "name": {
+        "value": "honor"
+      }
+    }
+  }
+}
+
+
+GET /vehicles/_search
+{
+  "size": 0, 
+  "aggs": {
+    "popular_cars": {
+      "terms": {
+        "field": "make.keyword"
+      },
+      "aggs":{
+      "avg_price":{
+        "avg": {
+          "field": "price"
+        }
+      },
+      "max_price":{
+        "max": {
+          "field": "price"
+        }
+      },
+      "min_price":{
+        "min": {
+          "field": "price"
+        }
+      }
+    }
+    }
+  }
+}
+
+GET /vehicles/_search
+{
+  "size": 0,
+  "aggs": {
+    "popular_cars": {
+      "terms": {
+        "field": "make.keyword"
+      },
+      "aggs": {
+        "sold_date_range": {
+          "range": {
+            "field": "sold",
+            "ranges": [
+              {
+                "from": "2016-01-01",
+                "to": "2016-05-18"
+              },
+              {
+                "from": "2016-05-18",
+                "to": "2017-01-01"
+              }
+            ]
+          },
+          "aggs": {
+            "stats": {
+              "stats": {
+                "field": "price"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+GET /vehicles/_search
+{
+  "size": 0,
+  "aggs": {
+    "car_condition": {
+      "terms": {
+        "field": "condition.keyword"
+      },
+      "aggs": {
+        "avg_price": {
+          "avg": {
+            "field": "price"
+          }
+        },
+        "make":{
+          "terms": {
+            "field": "make.keyword"
+          },
+          "aggs": {
+            "min_price": {
+              "min": {
+                "field": "price"
+              }
+            },
+            "max_price": {
+              "max": {
+                "field": "price"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+GET /cars
+
+GET /cars/_count
