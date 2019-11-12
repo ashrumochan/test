@@ -1,0 +1,26 @@
+GET kibana_sample_data_ecommerce/_search
+{
+  "aggs": {
+    "abc": {
+      "terms": {
+        "field": "user"
+      },
+      "aggs": {
+        "price": {
+          "sum": {
+            "field": "products.price"
+          }
+        },
+        "abc3":{
+          "terms": {
+            "field": "customer_gender"
+          }
+        }
+      }
+    }
+  },
+  "size": 0, 
+  "query": {
+    "match_all": {}
+  }
+}
