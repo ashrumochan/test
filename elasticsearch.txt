@@ -24,3 +24,50 @@ GET kibana_sample_data_ecommerce/_search
     "match_all": {}
   }
 }
+-------------------------------
+{
+  "aggs": {
+    "2": {
+      "terms": {
+        "field": "user",
+        "order": {
+          "1": "desc"
+        },
+        "size": 50
+      },
+      "aggs": {
+        "1": {
+          "sum": {
+            "field": "products.price"
+          }
+        },
+        "3": {
+          "terms": {
+            "field": "customer_gender",
+            "order": {
+              "1": "desc"
+            },
+            "size": 50
+          },
+          "aggs": {
+            "1": {
+              "sum": {
+                "field": "products.price"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "size": 0,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        }
+      ]
+    }
+  }
+}
