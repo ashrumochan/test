@@ -1,0 +1,30 @@
+sc.parallelize(List(1,2,3)).map(x => List(x,x,x)).collect
+sc.parallelize(List(1,2,3)).flatMap(x => List(1,2,3)).collect
+
+mapPartitions
+val parallel = sc.parallelize(1 to 9,3)
+parallel.mapPartitions(x => List(x.next).iterator).collect
+val parallel = sc.parallelize(1 to 9)
+parallel.mapPartitions(x => List(x.next).iterator).collect
+
+MapPartitionsWithIndex
+val parallel = sc.parallelize(1 to 9)
+parallel.mapPartitionsWithIndex((index:Int,it: Iterator[Int] ) =>it.toList.map(x => (index+" "+x)).iterator ).collect
+val parallel = sc.parallelize(1 to 9,3)
+parallel.mapPartitionsWithIndex((index:Int,it: Iterator[Int] ) =>it.toList.map(x => (index+" "+x)).iterator ).collect
+
+
+val pairs = sc.parallelize(List(("prova", 1), ("ciao", 2),
+                                ("prova", 2), ("ciao", 4),
+                                ("prova", 3), ("ciao", 6)))
+
+pairs.aggregateByKey(List[Any]())(
+  (aggr, value) => aggr ::: (value :: Nil),
+  (aggr1, aggr2) => aggr1 + aggr2
+).collect().toMap
+
+pairs.combineByKey(
+  (value) => List(value),
+  (aggr: List[Any], value) => aggr ::: (value :: Nil),
+  (aggr1: List[Any], aggr2: List[Any]) => aggr1 ::: aggr2
+).collect().toMap
