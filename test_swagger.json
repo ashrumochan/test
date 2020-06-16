@@ -1,0 +1,54 @@
+{
+            "in": "body",
+            "name": "body",
+            "description": "Pet object that needs to be added to the store",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "example": "event"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "enterprice_interaction_identifier": {
+                          "type": "string",
+                          "example": "{{EIID}}"
+                        },
+                        "producer_name": {
+                          "type": "string",
+                          "example": "CCSE_Connect"
+                        },
+                        "producer_interaction_timestamp": {
+                          "type": "string",
+                          "example": "2020-05-21 17.01.26.00000"
+                        }
+                      }
+                    }
+                  }
+                },
+                "relationship": {
+                  "type": "object",
+                  "properties": {
+                    "interactions": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "example": [
+                          "{{EIID}}"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "meta": {
+                  "type": "object"
+                }
+              }
+            }
+          }
