@@ -1,0 +1,229 @@
+{
+  "data": {
+    "organizations": {
+      "edges": [
+        {
+          "node": {
+            "name": "github-enterprise",
+            "repositories": {
+              "edges": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "name": "mwdeng",
+            "repositories": {
+              "edges": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "name": "CamNmEng",
+            "repositories": {
+              "edges": [
+                {
+                  "node": {
+                    "name": "Knowledge_Base",
+                    "languages": {
+                      "edges": [
+                        {
+                          "size": 13413,
+                          "node": {
+                            "name": "Shell"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "new_users_sandbox",
+                    "languages": {
+                      "edges": []
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "HelloLambda",
+                    "languages": {
+                      "edges": [
+                        {
+                          "size": 508,
+                          "node": {
+                            "name": "Python"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "Test_dynVars",
+                    "languages": {
+                      "edges": []
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "GcpBucketDevOpsTest",
+                    "languages": {
+                      "edges": [
+                        {
+                          "size": 805313,
+                          "node": {
+                            "name": "Python"
+                          }
+                        },
+                        {
+                          "size": 36815,
+                          "node": {
+                            "name": "Shell"
+                          }
+                        },
+                        {
+                          "size": 1909392,
+                          "node": {
+                            "name": "Go"
+                          }
+                        },
+                        {
+                          "size": 7480,
+                          "node": {
+                            "name": "C"
+                          }
+                        },
+                        {
+                          "size": 10246,
+                          "node": {
+                            "name": "ANTLR"
+                          }
+                        },
+                        {
+                          "size": 135408,
+                          "node": {
+                            "name": "Java"
+                          }
+                        },
+                        {
+                          "size": 10382,
+                          "node": {
+                            "name": "Dockerfile"
+                          }
+                        },
+                        {
+                          "size": 11118,
+                          "node": {
+                            "name": "JavaScript"
+                          }
+                        },
+                        {
+                          "size": 179886,
+                          "node": {
+                            "name": "TypeScript"
+                          }
+                        },
+                        {
+                          "size": 250,
+                          "node": {
+                            "name": "CSS"
+                          }
+                        },
+                        {
+                          "size": 3707175,
+                          "node": {
+                            "name": "Jupyter Notebook"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "lambda-test-onboarding-12",
+                    "languages": {
+                      "edges": []
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "ODM_JenkinsSharedLib_1",
+                    "languages": {
+                      "edges": [
+                        {
+                          "size": 16690,
+                          "node": {
+                            "name": "Groovy"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "name": "RetailB2B_JenkinsSharedLib",
+                    "languages": {
+                      "edges": [
+                        {
+                          "size": 4816,
+                          "node": {
+                            "name": "Groovy"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "pageInfo": {
+                "endCursor": "Y3Vyc29yOnYyOpHNqZI=",
+                "hasNextPage": false
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "name": "TechFoundation",
+            "repositories": {
+              "edges": [
+                {
+                  "node": {
+                    "name": "MbrFeatures_IIB",
+                    "languages": {
+                      "edges": []
+                    }
+                  }
+                }
+              ],
+              "pageInfo": {
+                "endCursor": "Y3Vyc29yOnYyOpHNAQ8=",
+                "hasNextPage": false
+              }
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "Y3Vyc29yOnYyOpHNAYk=",
+        "hasNextPage": true
+      }
+    }
+  }
+}
